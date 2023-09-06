@@ -5,4 +5,12 @@ In this notebook, I try to say the basic topics in order to understand the subje
 ![alt text](https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/34R.png)
 
 In the table, there is a summary of the output size at every layer and the dimension of the convolutional kernels at every point in the structure.
+
 ![alt_text](https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/Resnets_tabel.jpg)
+
+Two-dimensional view:
+
+![alt_text](https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg)
+
+
+
