@@ -35,19 +35,19 @@ We can see how we have the [3x3, 64] x 3 times within the layer.
 
  Represents this down sampling performed by increasing the stride = 2.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig9.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig9.jpg" >
 
 In the shortcut we need to apply one of our down sampling strategies. The 1x1 convolution approach is shown :
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig10.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig10.jpg" >
 
 The final picture looks then like in Figure  where now the 2 output volumes of each thread has the same size and can be added.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig11.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig11.jpg" >
 
 In Figure we can see the global picture of the entire second layer. The behavior is exactly the same for the following layers 3 and 4, changing only the dimensions of the incoming volumes.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig12.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig12.jpg" >
 
 
 
