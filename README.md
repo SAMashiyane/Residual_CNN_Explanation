@@ -7,15 +7,15 @@ In this notebook, I try to say the basic topics in order to understand the subje
 
 In the table, there is a summary of the output size at every layer and the dimension of the convolutional kernels at every point in the structure.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/Resnets_tabel.jpg" width="300" height="300">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/Resnets_tabel.jpg" width="400" height="600">
 
 Two-dimensional view:
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg" width="300" height="300">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg" width="400" height="600">
 
 Conv1:
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv1_resnet34.jpg" width="300" height="300">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv1_resnet34.jpg" width="400" height="600">
 
 
 
