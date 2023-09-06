@@ -12,5 +12,8 @@ Two-dimensional view:
 
 ![alt_text](https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg)
 
+Conv1:
+![alt_text](https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg)
+
 
 
