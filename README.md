@@ -11,27 +11,27 @@ In the table, there is a summary of the output size at every layer and the dimen
 
 Two-dimensional view:
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/aspect_resnet34.jpg" >
 
 Conv1:
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv1_resnet34.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv1_resnet34.jpg" >
 
 Conv1+ Max Pooling:First, a padding 1 is created, then we have the (3x3) Max Pooling operation with a stride of 2 .
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv-maxpool.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/conv-maxpool.jpg" >
 
 ResNet Layers: Every layer of a ResNet is composed of several blocks.We can see how, as we mentioned previously, the size of the volume does not change within a block. This is because a padding = 1 is used and a stride =1.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig6.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig6.jpg" >
 
 Let’s see how this extends to an entire block, to cover the 2 [3x3, 64] that appears in the table.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig7.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig7.jpg" >
 
 We can see how we have the [3x3, 64] x 3 times within the layer.
 
-<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig8.jpg" width="600" height="400">
+<img src="https://github.com/SAMashiyane/Residual_CNN_Explanation/blob/main/image/fig8.jpg" >
 
  Represents this down sampling performed by increasing the stride = 2.
 
